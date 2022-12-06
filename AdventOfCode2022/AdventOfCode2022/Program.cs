@@ -18,7 +18,7 @@
                 case "3": day = new Day3(); break;
                 case "4": day = new Day4(); break;
                 case "5": day = new Day5(); break;
-                //case "6": day = new Day6(); break;
+                case "6": day = new Day6(); break;
                 //case "7": day = new Day7(); break;
                 //case "8": day = new Day8(); break;
                 //case "9": day = new Day9(); break;
