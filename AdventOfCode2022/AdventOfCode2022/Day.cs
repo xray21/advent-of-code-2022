@@ -25,7 +25,7 @@ namespace AdventOfCode2022
             if (useTestInput)
             {
                 Console.WriteLine("TEST");
-                input = File.ReadAllLines($"./Day{dayNum}/TestInput.txt").ToList();
+                input = File.ReadAllLines($"Day{dayNum}/TestInput.txt").ToList();
             }
             else
             {
