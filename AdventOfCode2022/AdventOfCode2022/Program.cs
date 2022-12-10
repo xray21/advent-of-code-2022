@@ -22,7 +22,7 @@
                 case "7": day = new Day7(); break;
                 case "8": day = new Day8(); break;
                 case "9": day = new Day9(); break;
-                //case "10": day = new Day10(); break;
+                case "10": day = new Day10(); break;
                 //case "11": day = new Day11(); break;
                 //case "12": day = new Day12(); break;
                 //case "13": day = new Day13(); break;
@@ -47,7 +47,7 @@
                 day.Execute(true);
                 day.Execute();
             }
-
+            
             Console.Write("Press any key to close");
             Console.ReadKey();
         }
